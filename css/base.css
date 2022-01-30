@@ -1,0 +1,8 @@
+header {
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1/2;
+}
+h1 {
+    text-align: right;
+}
