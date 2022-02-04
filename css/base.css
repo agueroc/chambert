@@ -3,6 +3,12 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-row: 1/2;
 }
+head {
+    align-items: center;
+}
 h1 {
-    text-align: right;
+    text-align: center;
+}
+nav ul {
+    display:flex;
 }
