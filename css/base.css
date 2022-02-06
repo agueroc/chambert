@@ -1,7 +1,7 @@
 header {
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
 }
 head {
     align-items: center;
@@ -10,5 +10,90 @@ h1 {
     text-align: center;
 }
 nav ul {
+    display: flex;
+    padding: 20px;
+}
+nav ul li {
     display:flex;
+    background-color: blanchedalmond;
+    list-style: none;
+    padding: 20px;
+    width: 600px;
+    margin: 0;
+    font-size:x-large;
+}
+.logo {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+	width: 100px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: .5rem;
+}
+
+.headings h1 {
+	font-size: 1rem;
+}
+
+.s {
+	letter-spacing: 1pt;
+	color: grey;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+a {
+    display: block;
+}
+footer {
+    display: block;
+    background-color: bisque;
+    padding: 5px;
+    font-size: small;
+}
+.logo-footer img {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+}
+footer h2 {
+    display: inline;
+    font-size: small;
+    margin-left: 10px;
+}
+main {
+    display: grid;
+    margin: .75rem;
+}
+section {
+    display:block;
+}
+.event {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 50px;
+    background-color: rgb(185, 184, 184);
+    width: 50px;
+    flex-basis: 60%;
+}
+.hero {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: rgb(185, 184, 184);
+    width: 150px;
+    padding: 50px;
+    flex-basis: 100%;
+}
+.spotlight1 {
+    display: flex;
+    grid-template-columns: 3/3;
+    width: 150px;
+    padding: 50px;
 }

@@ -1,0 +1,25 @@
+@media only screen and (min-width: 32.5em) {
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 2rem;
+		margin: 0;
+	}
+
+	.s {
+		letter-spacing: 1.5pt;
+		font-size: 0.9rem;
+	}
+	main {
+		display: block;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		column-gap: 0.75rem;
+		row-gap: 0.75rem;
+		justify-items: stretch;
+		align-items: stretch;
+		justify-content: stretch;
+		align-content: stretch;
+	}
+}
