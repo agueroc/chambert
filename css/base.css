@@ -22,6 +22,9 @@ nav ul li {
 	flex-direction: row;
     align-items: center;
 }
+.logo-footer {
+    width: 150px;
+}
 .logo img {
 	width: 100px;
 	height: auto;
@@ -44,7 +47,8 @@ a {
     display: block;
 }
 footer {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: bisque;
     padding: 5px;
     font-size: small;
@@ -111,4 +115,10 @@ div {
     grid-row: 3/4;
     padding: 50px;
     background-color: rgb(185, 184, 184);
+}
+.address {
+    grid-column: 1/2;
+}
+.contact {
+    grid-column: 2/3;
 }
