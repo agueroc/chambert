@@ -14,3 +14,7 @@ document.querySelector("#lastModified").textContent = `Last Modification: ${docu
 
 const currentDate = new Date();
 document.querySelector('#year').textContent = currentDate.getFullYear();
+
+function toogleMenu(){
+    document.getElementById("navigation").classList.toogle("open");
+}

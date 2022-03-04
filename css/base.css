@@ -125,3 +125,13 @@ div {
 .name {
     text-align: center;
 }
+/*Hamburger Button*/
+nav ul {display:none;}
+nav ul.open {display:block;}
+
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn .open:nth-child(1) {display:none;}
+#hamburgerBtn .open:nth-child(2) {display:block;}
+
