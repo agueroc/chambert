@@ -18,3 +18,6 @@ document.querySelector('#year').textContent = currentDate.getFullYear();
 function toogleMenu(){
     document.getElementById("navigation").classList.toogle("open");
 }
+const x = document.getElementById('hamburgerBtn')
+x.onclick = toogleMenu;
+const dayNumber = d.getDay();

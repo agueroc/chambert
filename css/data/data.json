@@ -1,0 +1,80 @@
+[
+    {
+        "name": "YPF",
+        "address": "Macacha Güemes 515",
+        "phone": 1154410000,
+        "websites": "https://www.ypf.com/Paginas/home.aspx"
+    },
+    {
+        "name": "IBM",
+        "address":"Ing. Enrique Butty 275",
+        "phone": 1152864898,
+        "websites": "https://www.ibm.com/ar-es"
+    },
+    {
+        "name":"Aerolineas Argentinas",
+        "address": "Peru 2",
+        "phone":  1143202000,
+        "websites": "https://www.aerolineas.com.ar/"
+    },
+    {
+        "name": "Shell",
+        "address": "Av. Pres. Roque Sáenz Peña 788",
+        "phone": 1166853048,
+        "websites": "https://www.shell.com.ar/"
+    },
+    {
+        "name": "Axion",
+        "address": "Av. San Martín 1934",
+        "phone": 1147501294,
+        "websites": "https://www.axionenergy.com/Paginas/index.aspx"
+    },
+    {
+        "name": "Carrefour",
+        "address": "Cuyo 3367",
+        "phone":  1140037000,
+        "websites": "https://www.carrefour.com.ar/"
+    },
+    {
+        "name": "Arcor",
+        "address": "Maipú 1210",
+        "phone": 1143109500,
+        "websites": "https://www.arcor.com/ar/"
+    },
+    {
+        "name": "Sancor Seguros",
+        "address": "Córdoba 1776",
+        "phone": 1148147000,
+        "websites": "https://www.sancorseguros.com.ar/"
+    },
+    {
+        "name": "Coto",
+        "address":"Espinosa 1960",
+        "phone": 1145867777,
+        "websites": "https://www.coto.com.ar/"
+    },
+    {
+        "name": "Adidas",
+        "address": "Von Wernicke 3023",
+        "phone": 8006660206,
+        "websites": "https://www.adidas.com.ar/"
+    },
+    {
+        "name": "Zara",
+        "address": "Av. Constituyentes 1608",
+        "phone": 1157778200,
+        "websites": "https://www.zara.com/"
+    },
+    {
+        "name": "Whirlpool",
+        "address": "Av. Crovara 2550",
+        "phone": 1144808888,
+        "websites": "https://www.whirlpool.com.ar/"
+    },
+    {
+        "name": "Longvie",
+        "address": "Francisco N. de Laprida 4851",
+        "phone": 1147098500,
+        "websites": "https://www.longvie.com/"
+    }
+]
