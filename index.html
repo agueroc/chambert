@@ -7,10 +7,10 @@
     <meta name="description" content="Buenos Aires Chamber of Commerce">
     <title>Buenos Aires Chamber of Commerce</title>
     <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
     <header><div class="logo"><picture><img src="images/bsas.png" alt="logo"></picture>
@@ -31,15 +31,42 @@
         </ul>
     </nav>
 </header>
-    <div class="page_title">
-    <h1>Page Title</h1></div>
     <main>
         <div class="container">
-        <section class="event">event</section>
-        <section class="hero">Hero with site name and call to action</section>
-        <section class="weather">Current weather</section>
-        <section class="join">join</section>
-        <section class="news">news release</section>
+            <div class="event">
+                <section class="text">
+                <h2>Piano Concert</h2>
+                <h3><br>March, 25, 2022
+                <br>7 p.m.
+                <br>Humboldt 450 - Buenos Aires</p></h3>
+                <button class="btn">Register</button>
+                </section>
+            </div>
+        <div class="hero">
+            <section class="herotext">
+                <h2>Welcome to Buenos Aires Chamber of commerce</h2>
+                <h3>We work for you</h3>
+                <button class="btn" onclick="window.location.href=join.html">Join</button>
+            </section>
+        </div>
+            <section class="weather">
+                <h2>Current weather</h2>
+            <h3><span id="place"></span>City</h3>
+            <div class="current-weather">
+            <img src='#' id="weathericon" alt="" />
+            <div class="w-text">
+                <span id="currentTemp"></span>
+                <p id="weather-desc"></p>
+            </div>
+            </section>
+        <section class="join">
+            <h2>Join</h2>
+            <p>Be part of our group</p>
+            <a href="join.html">Register</a>
+        </section>
+
+        <section class="news">
+            <h2>News</h2></section>
         <section class="spotlight1">spotlight1</section>
         <section class="spotlight2">spotlight2</section>
         </div>        

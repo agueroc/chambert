@@ -63,9 +63,6 @@ footer h2 {
     font-size: small;
     margin-left: 10px;
 }
-.page_title {
-    display: flex;
-}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -75,22 +72,32 @@ div {
     row-gap: 5px;
 }
 .event {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    padding: 50px;
-    background-color: rgb(185, 184, 184);
+    background-image: url('../images/piano.png');
+}
+.text {
+    background-color: rgba(245, 202, 137, 0.80);
+    width: 80%;
+    margin: 7rem 10% auto 10%;
+    text-align: center;
 }
 .hero {
     grid-column: 2/3;
     grid-row: 1/3;
-    padding: 50px;
-    background-color: rgb(185, 184, 184);
+    height: 640px;
+    width: 430px;
+    background-image: url('../images/buenosaires.png');
+}
+.herotext {
+    background-color: rgba(245, 202, 137, 0.80);
+    width: 80%;
+    margin: 15rem 10% auto 10%;
+    text-align: center;
 }
 .weather {
     grid-column: 1/2;
     grid-row: 2/3;
     padding: 50px;
-    background-color: rgb(185, 184, 184);
+    background: linear-gradient(100deg, rgb(245, 202, 137) 0%, rgb(247, 153, 13) 100%);
 }
 .spotlight1 {
     grid-column: 3/3;
@@ -108,13 +115,13 @@ div {
     grid-column: 1/2;
     grid-row: 3/3;
     padding: 50px;
-    background-color: rgb(185, 184, 184);
+    background: linear-gradient(150deg, rgb(245, 202, 137) 0%, rgb(247, 153, 13) 100%);
 }
 .news {
     grid-column: 2/5;
     grid-row: 3/4;
     padding: 50px;
-    background-color: rgb(185, 184, 184);
+    background: linear-gradient(150deg, rgb(245, 202, 137) 0%, rgb(247, 153, 13) 100%);
 }
 .address {
     grid-column: 1;
@@ -124,6 +131,14 @@ div {
 }
 .name {
     text-align: center;
+}
+#weather-desc {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: .8rem;
+}
+.weather a {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: .6rem;
 }
 /*Hamburger Button*/
 nav ul {display:none;}
